@@ -5,6 +5,9 @@ RUN wget https://teamchubucket.s3.us-east-1.amazonaws.com/Project.zip
 RUN unzip Project.zip
 WORKDIR /opt/Project
 RUN touch logs
+<<<<<<< HEAD
 RUN yum install flask pymemcache mysql-connector-python
+=======
+>>>>>>> origin/main
 EXPOSE 5000
 CMD python3 app.py >> logs 2>&1
