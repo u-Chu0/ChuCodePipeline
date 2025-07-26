@@ -10,6 +10,6 @@ CONFIG = {
     "mem_port": 11211,
     "mem_ssl_ca": "/etc/ssl/cert.pem",  # CA证书路径
     # 静态资源
-    "img1": "https://d1ub69eyw2lvtu.cloudfront.net/img/1.png",
+    "img1": "https://teamchubucket.s3.us-east-1.amazonaws.com/1.png",
     "img2": "static/images/2.jpg"
 }
