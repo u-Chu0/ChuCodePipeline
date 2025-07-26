@@ -1,5 +1,5 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:latest
-RUN yum update -y && yum install -y unzip python3 wget
+RUN yum update -y && yum install -y unzip python3 wget pip
 WORKDIR /opt
 RUN wget https://teamchubucket.s3.us-east-1.amazonaws.com/Project.zip
 RUN unzip Project.zip
